@@ -146,7 +146,7 @@ function bubbleChart(sample){
 
         // Apply titles to the layout
         let layout = {
-            title: "Bacteria in Sample ID 940",
+            title: `Bacteria in Sample ID ${sample}`,
             xTitle: {title: "OTU ID"},
         };
 
