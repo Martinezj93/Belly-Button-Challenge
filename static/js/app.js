@@ -147,7 +147,7 @@ function bubbleChart(sample){
         // Apply titles to the layout
         let layout = {
             title: `Bacteria in Sample ID ${sample}`,
-            xTitle: {title: "OTU ID"},
+            xaxis: {title: "OTU ID"},
         };
 
         // Render the plot to div tag with id "bar"
